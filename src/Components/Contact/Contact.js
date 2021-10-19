@@ -14,7 +14,7 @@ const Contact = () => {
             </div>
             <Container className="contact-us">
                 <div>
-                    <h1>MediCare</h1>
+                    <h1>SK Private Hospital</h1>
                     <p>We are always responsible to you. Contact us or send us an email.</p>
                 </div>
                 <div>

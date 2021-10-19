@@ -1,4 +1,4 @@
-# Welcome to MediCare Hospital
+# Welcome to SK Private Hospital
 ## Here is our website link
 
 Click here to visit our website [https://sk-private-hospital.netlify.app/]
