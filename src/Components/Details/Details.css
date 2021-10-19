@@ -1,0 +1,7 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2193B0;
+    height: 400px;
+}

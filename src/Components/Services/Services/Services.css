@@ -1,0 +1,16 @@
+.services{
+    text-align: center;
+    color: #2193B0;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media only screen and (max-width: 780px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}

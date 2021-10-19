@@ -1,0 +1,22 @@
+.about-header{
+    background-color: #2193B0;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width:780px) {
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us img{
+        width: 100%;
+    }
+}

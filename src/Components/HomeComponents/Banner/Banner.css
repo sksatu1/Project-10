@@ -1,0 +1,13 @@
+.banner{
+    padding-top: 10px;
+    background-color: #2193B0;
+    color: white;
+    margin-bottom: 50px;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner img{
+    width: 100%;
+}

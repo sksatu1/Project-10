@@ -1,0 +1,28 @@
+.contact-header{
+    background-color: #2193B0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.contact-header h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.contact-us{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-us h1{
+    color: #2193B0;
+}
+
+@media only screen and (max-width:780px) {
+    .contact-us{
+        margin-top: 30px;
+        height: max-content;
+        flex-direction: column;
+    }
+}
