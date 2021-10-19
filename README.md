@@ -1,7 +1,7 @@
 # Welcome to MediCare Hospital
 ## Here is our website link
 
-Click here to visit our website [https://sleepy-darwin-913b3c.netlify.app/]
+Click here to visit our website [https://sk-private-hospital.netlify.app/]
 
 ## Services
 * A website of excellent and cost-effective healthcare
