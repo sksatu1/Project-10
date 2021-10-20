@@ -46,7 +46,7 @@ const useFirebase = () => {
     }
 
     const createUser = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
+        return createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setError('');
                 setUser(result.user);
@@ -56,7 +56,7 @@ const useFirebase = () => {
             })
             .catch(error => {
                 setError(error.message);
-            });
+            })
     }
 
     const userLogin = (email, password) => {
@@ -73,7 +73,7 @@ const useFirebase = () => {
 
     const handleRegistration = (event) => {
         event.preventDefault();
-        createUser(email, password);
+        return createUser(email, password);
     }
 
     const logOut = () => {
