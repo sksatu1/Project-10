@@ -18,11 +18,18 @@ const Login = () => {
             })
     }
 
+    const handleEmailLogIn = (event) => {
+        handleLogin(event)
+            .then(result => {
+                history.push(redirect_url);
+            })
+    }
+
     return (
         <div className="login">
             <div>
                 <h2>Please Login</h2>
-                <form onSubmit={handleLogin}>
+                <form onSubmit={handleEmailLogIn}>
                     <input onBlur={handleEmailOnBlur} type="email" name="email" id="email" placeholder="Your email" required /><br /><br />
                     <input onBlur={handlePasswordOnBlur} type="password" name="password" id="password" placeholder="Your password" required /><br /><br />
                     <input className="btn btn-danger" type="submit" value="Login" /><br />

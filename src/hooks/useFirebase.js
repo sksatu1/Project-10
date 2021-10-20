@@ -60,20 +60,15 @@ const useFirebase = () => {
     }
 
     const userLogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                console.log(result.user);
-                setError('');
-                window.location.reload();
-            })
-            .catch(error => {
-                setError(error.message);
-            })
+        return signInWithEmailAndPassword(auth, email, password)
+        // .catch(error => {
+        //     setError(error.message);
+        // })
     }
 
     const handleLogin = (event) => {
         event.preventDefault();
-        userLogin(email, password);
+        return userLogin(email, password);
     }
 
     const handleRegistration = (event) => {
