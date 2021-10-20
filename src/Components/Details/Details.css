@@ -1,7 +1,20 @@
+
 .details{
+    padding: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
     background-color: #2193B0;
     height: 400px;
+    color: white;
+}
+.details img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+@media only screen and (max-width:780px) {
+    .details{
+        flex-direction: column;
+    }
 }

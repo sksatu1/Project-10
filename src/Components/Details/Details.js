@@ -4,25 +4,25 @@ import './Details.css';
 
 const Details = () => {
     const { serviceId } = useParams();
-    const { serviceDetails, setServiceDetails } = useState([]);
-    const { singleDetails, setSingleDetails } = useState({});
+    const [serviceDetails, setServiceDetails] = useState([]);
 
     useEffect(() => {
-        fetch('./servicesData.json')
+        fetch('/servicesData.json')
             .then(res => res.json())
-            .then(data => console.log(data));
+            .then(data => setServiceDetails(data))
     }, []);
 
-    // useEffect(() => {
-    //     const foundDetails = serviceDetails?.find(service => service.id === serviceId)
-    //     setSingleDetails(foundDetails)
-    // }, []);
+    const selectedService = serviceDetails?.find(details => details.id === serviceId);
+    console.log(selectedService);
 
     return (
         <div className="details">
-            <div>
-                <h2>this is details {serviceId}</h2>
-                <p>{singleDetails?.title}</p>
+            <div className="p-4">
+                <img src={selectedService?.img} alt="" />
+            </div>
+            <div className="p-4">
+                <h1>{selectedService?.title}</h1>
+                <p>{selectedService?.description}</p>
             </div>
         </div>
     );

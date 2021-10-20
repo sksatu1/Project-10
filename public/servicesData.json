@@ -1,42 +1,42 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "img": "https://i.ibb.co/BKyjRCt/eyecare.png",
         "title": "Eye Care",
         "description": "Eyes are the important parts of our life. Take care of your eyes. Call us for emergencies and any kind of eyes disease."
     },
     {
-        "id": 2,
+        "id": "2",
         "img": "https://i.ibb.co/B4sdWNp/dental.png",
         "title": "Dental Care",
         "description": "Tooth decay and gum disease are caused by plaque, a sticky combination of bacteria and food. Plaque begins to build up on teeth within a few minutes after eating. If teeth are not cleaned well each day, plaque will lead to tooth decay or gum disease."
     },
     {
-        "id": 3,
+        "id": "3",
         "img": "https://i.ibb.co/9pxyNn3/ent.png",
         "title": "ENT Specialist",
         "description": "Hearing and balance, swallowing and speech, breathing and sleep issues, allergies and sinuses, head and neck cancer, skin disorders, even facial plastic surgery are just some of the conditions that “ENT” (ear, nose, and throat) specialists treat. Professionally, ENT specialists are called “otolaryngologists”"
     },
     {
-        "id": 4,
+        "id": "4",
         "img": "https://i.ibb.co/qx52VCn/internal.png",
         "title": "Internal Medical",
         "description": "Internal medicine or general internal medicine (in Commonwealth nations) is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases."
     },
     {
-        "id": 5,
+        "id": "5",
         "img": "https://i.ibb.co/Sc44TKY/ambulance.png",
         "title": "Ambulance",
         "description": "Do you have an emergency? Need an Ambulance? We provide you 24/7 times ambulance service. Contact us to get an ambulance"
     },
     {
-        "id": 6,
+        "id": "6",
         "img": "https://i.ibb.co/84Z2RFd/Psychiatrist.png",
         "title": "Psychiatrist",
         "description": "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders."
     },
     {
-        "id": 7,
+        "id": "7",
         "img": "https://i.ibb.co/KwG86Zk/Pediatrician.png",
         "title": "Pediatrician",
         "description": "A pediatrician is a medical doctor who manages the physical, behavioral, and mental care for children from birth until age 18. A pediatrician is trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases."
