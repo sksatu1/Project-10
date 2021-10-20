@@ -30,7 +30,7 @@ const Register = () => {
                     <input className="btn btn-danger" type="submit" value="Register" /><br />
                 </form>
                 <hr />
-                <p>Already have an account? <Link style={{ color: 'white' }} to="/login">Login</Link></p>
+                <p>Already have an account? <Link style={{ color: 'black' }} to="/login">Login</Link></p>
                 <button onClick={signInUsingGoogle} className="btn btn-danger">Google Sign In</button>
             </div>
         </div>

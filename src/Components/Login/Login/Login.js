@@ -35,7 +35,7 @@ const Login = () => {
                     <input className="btn btn-danger" type="submit" value="Login" /><br />
                 </form>
                 <hr />
-                <p>New to SK Private Hospital? <Link style={{ color: 'white' }} to="/register">Create Account</Link></p>
+                <p>New to SK Private Hospital? <Link style={{ color: 'black' }} to="/register">Create Account</Link></p>
                 <button className="btn btn-danger" onClick={handleGoogleSignIn}>Google Sign In</button>
             </div>
         </div >
