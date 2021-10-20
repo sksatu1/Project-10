@@ -51,6 +51,8 @@ const useFirebase = () => {
                 setError('');
                 setUser(result.user);
                 updateUser();
+                // window.location.reload();
+                userLogin(email, password);
             })
             .catch(error => {
                 setError(error.message);
@@ -98,7 +100,7 @@ const useFirebase = () => {
             }
             setIsLoading(false);
         })
-    }, []);
+    }, [auth]);
 
     return {
         user,
