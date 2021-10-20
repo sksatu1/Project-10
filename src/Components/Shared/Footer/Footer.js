@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: "#60909c", padding: "10px", marginTop: "10px" }}>
+        <div className="footer-container">
             <Container>
                 <hr />
                 <div className="footer">
